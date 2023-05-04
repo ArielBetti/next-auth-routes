@@ -13,9 +13,9 @@ export default async function UserBadge() {
     <div className="flex gap-5 w-full sm:flex-nowrap flex-wrap">
       <div className="min-w-fit">
         <Image
-					width={115}
-					height={115}
-          className="h-28 w-28 rounded-sm shaodw-md border-4 border-yellow-500 border-b-8"
+          width={115}
+          height={115}
+          className="h-28 w-28 rounded-sm shadow-md border-4 border-yellow-400 border-b-8"
           src={session?.user?.image || ""}
           alt="User avatar image"
         />
