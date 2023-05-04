@@ -35,9 +35,9 @@ export default async function Header() {
                   />
                 </Link>
               )}
-              <div className="flex flex-col">
+              <div className="flex flex-col prose">
                 <p className="text-sm m-0 p-0 font-thin">Signed in as</p>
-                <p className="font-semibold">
+                <p className="m-0 font-semibold">
                   {session.user.email ?? session.user.name}
                 </p>
               </div>
