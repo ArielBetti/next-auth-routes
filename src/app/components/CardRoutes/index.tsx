@@ -13,14 +13,14 @@ export default async function CardRoutes() {
 
   if (!session?.user)
     return (
-      <p className="transition-colors prose border-t border-t-zinc-200 py-2 hover:bg-zinc-100">
+      <p className="animate-leftSlide transition-colors prose border-t border-t-zinc-200 py-2 hover:bg-zinc-100">
         🍃 To check out the hidden routes around here, you gotta sign in to the app
         first.
       </p>
     );
 
   return (
-    <div className="flex flex-col">
+    <div className="animate-leftSlide flex flex-col">
       <CardLink href={ROUTES.profile}>
         <div className="flex gap-2">
           🦝 <p>Your profile</p>

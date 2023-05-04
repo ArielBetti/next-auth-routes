@@ -6,15 +6,11 @@ export default function Logo() {
   return (
     <Link
       href={ROUTES.home}
-      className="text-xl font-thin flex items-baseline justify-center"
+      className="animate-leftSlide text-xl font-thin flex items-start justify-center"
     >
-      <div className="flex items-center justify-center border-b-2 border-amber-500">
-        👻
-      </div>
-      <h1>
-        <span className="border-b-2 border-b-teal-500">auth</span>
-        <span className="border-b-2 border-b-red-500">Routes</span>
-      </h1>
+      <div className="border-b-2 border-amber-500">👻</div>
+      <span className="border-b-2 border-b-teal-500">auth</span>
+      <span className="border-b-2 border-b-red-500">Routes</span>
     </Link>
   );
 }

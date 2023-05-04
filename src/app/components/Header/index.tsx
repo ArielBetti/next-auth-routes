@@ -23,7 +23,7 @@ export default async function Header() {
       <div className="container mx-auto px-4 flex gap-2 items-center py-2 justify-between">
         {session?.user ? (
           <>
-            <div className="flex gap-3">
+            <div className="animate-leftSlide flex gap-3">
               {session.user.image && (
                 <Link href={ROUTES.home}>
                   <Image

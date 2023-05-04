@@ -11,7 +11,7 @@ export default function Layout({ children }: { children: ReactNode }) {
   return (
     <>
       <button
-        className="decoration-2 decoration-blue-500 mb-5 font-thin text-sm border-b-2 border-b-red-500"
+        className="animate-leftSlide decoration-2 decoration-blue-500 mb-5 font-thin text-sm border-b-2 border-b-red-500"
         onClick={() => router.back()}
       >
         Go back page

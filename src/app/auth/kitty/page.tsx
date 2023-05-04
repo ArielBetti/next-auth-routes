@@ -6,7 +6,7 @@ import Image from "next/image";
 // ::
 export default function page() {
   return (
-    <div className="flex flex-col items-center  justify-center">
+    <div className="animate-fadeIn flex flex-col items-center  justify-center">
       <div className="overflow-hidden relative bg-yellow-400 rounded-md shadow-md border-4 border-b-[20px] border-yellow-400">
         <Image
           width={120}

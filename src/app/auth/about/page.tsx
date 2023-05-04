@@ -7,7 +7,7 @@ import { CardLink } from "@/components";
 export default function page() {
   return (
     <>
-      <div className="flex-col gap-2 prose">
+      <div className="flex-col gap-2 prose animate-fadeIn">
         <h1>👋 Hey there, I'm Ariel Betti!</h1>
         <p>
           Well done, you've stumbled upon an authenticated route! While you're
@@ -23,7 +23,7 @@ export default function page() {
           follow on my social media?
         </p>
       </div>
-      <div className="flex flex-col mt-10">
+      <div className="animate-leftSlide flex flex-col mt-10">
         <CardLink target="_blank" href="https://github.com/ArielBetti">
           🐙 Github: ArielBetti
         </CardLink>

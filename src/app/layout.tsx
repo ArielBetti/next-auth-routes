@@ -14,7 +14,7 @@ export default function Layout({ children }: { children: ReactNode }) {
   return (
     <html>
       <head></head>
-      <body className="container mx-auto px-4 py-24 min-h-screen min-w-screen">
+      <body className="bg-white container mx-auto px-4 py-24 min-h-screen min-w-screen">
         <NextAuthProvider>
           {/** @ts-expect-error */}
           <Header />

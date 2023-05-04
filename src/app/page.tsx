@@ -5,7 +5,7 @@ import CardRoutes from "./components/CardRoutes";
 export default function IndexPage() {
   return (
     <div>
-      <div className="flex flex-col gap-2 mb-5 prose">
+      <div className="animate-fadeIn flex flex-col gap-2 mb-5 prose">
         <h1 className="m-0">👻 Welcome!</h1>
         <p>
           This is an example site to demonstrate how to use{" "}
@@ -18,7 +18,7 @@ export default function IndexPage() {
           for authentication routes.
         </p>
       </div>
-      <div className="max-w-[200px] mt-5 mb-10 ">
+      <div className="animate-fadeIn max-w-[200px] mt-5 mb-10 ">
         <Link
           target="_blank"
           className="font-semibold flex items-center justify-center gap-2 p-2 rounded-md border-b-4 text-black bg-yellow-400 border-b-yellow-600"
