@@ -1,6 +1,8 @@
 # 👋 Next Auth Routes
 Authenticated routes with NextAuth.js in Next 13
 
+![App screen](./documentation/screen.png)
+
 ## Getting Started
 
 First, create a `.env.local` based in `.env.example`
